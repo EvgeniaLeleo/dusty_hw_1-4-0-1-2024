@@ -8,7 +8,7 @@
 .promo-description {
   display: inline-block;
   vertical-align: top;
-  line-height: 494px;
+  line-height: 454px;
 
   color: #fff;
 
@@ -43,6 +43,13 @@
   font-size: 18px;
   line-height: 1.78;
   font-weight: 400;
+
+  display: -webkit-box;
+
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 
   margin: 12px 0 0;
 }
