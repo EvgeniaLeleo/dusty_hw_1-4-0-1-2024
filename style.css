@@ -8,15 +8,22 @@
 .promo-description {
   display: inline-block;
   vertical-align: top;
+  line-height: 494px;
 
   color: #fff;
 
   width: 570px;
   height: 100%;
-  padding: 158px 30px 164px 52px;
+  padding: 20px 30px 20px 52px;
   box-sizing: border-box;
 
   background-color: #dc3545;
+}
+
+.promo-text-wrapper {
+  line-height: 0;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .description-title {
